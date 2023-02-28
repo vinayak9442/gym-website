@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     background: url("img/training-828764_1920.jpg"); 
+    height: 1250px;
+    background-color: black;
+}
+.left{ color: aliceblue;
+    display: inline-block;
+    position: absolute;
+   top: 20px;
+   left: 12px;
+   border: 5px solid rgb(4, 2, 2);
+   background-color:rgb(2, 2, 2);
+   border-radius: 25px;
+   height: 100px;
+   width: 125px;
+   padding: 20px 9px 35px 20px;
+   font-family:  friz-quadrata;
+
+}
+
+.mid{display: block;
+    width: 33%;
+    margin: 20px auto;
+    /* border: 5px solid red; */
+    padding-inline-end: 27px;
+    background-color: black;
+    border-radius: 50px;
+    height: 70px;
+}
+.right{ display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    border: 5px solid red;   
+    height: 35px;
+    width: 125px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    padding: 15px 10px 15px 10px;
+    font-family: 'Coldiac', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;   
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.left img{ width: 112px;
+
+}
+.left div{
+    text-align: center;
+}
+.right button div:hover{
+    color: blue;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+.right button div{
+    background-color: dimgrey;
+}
+.container{
+    border: 2px solid red;
+   
+    padding: 20px 100px 20px 100px;
+    margin: 100px 100px 100px 380px;
+    
+    height: 500px;
+    width: 40%;
+    text-align: center;
+}
+.container h1{
+    color: rgb(182, 30, 58);
+}
+.container h2{
+    color: rgb(156, 20, 31);
+}
+.form{
+    /* margin-right: 323px; */
+    margin-top: 70px;
+    
+}
+.formgrp{  
+    margin-top: 23px;   
+}
+input {
+    size: 220px;
+    width: 444px;
+}
+.bty{
+    margin-top: 92px;
+    font-size: x-large;
+    background-color:white;
+}
+.bty:hover{
+    color: blue;
+    background-color: darkgray;
+}
